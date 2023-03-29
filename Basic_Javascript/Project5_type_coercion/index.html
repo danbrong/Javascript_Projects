@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8">
+        <title>Type Coercion</title>
+        <script src = "./JS/main.js"></script>
+    </head>
+
+    <body>
+        <p id = "NaN" onclick = "myNaN()">Click here to see if 0 / 0 is a number.</p>
+        <p id = "isNaN_true" onclick = "myTrueNaN()">Click here to see if "Dog" is not a number.</p>
+        <p id = "isNaN_false" onclick = "myFalseNaN()">Click here to see if "42" is not a number.</p>
+
+        <p id = "Infinity" onclick = "myInfinity()">Click here to see the value of 2.34E10.</p>
+        <p id = "Onfinity" onclick = "myOnfinity()">Click here to see the value of -3.2E10.</p>
+
+        <p id = "True" onclick = "myTrue()">Click here to see if 10 > 2.</p>
+        <p id = "False" onclick = "myFalse()">Click here to see if 4 > 25.</p>
+
+        <p id = "Equal_Yes" onclick = "myEqualYes(5,5)">Click here to see if 5 = 5.</p>
+        <p id = "Equal_No" onclick = "myEqualNo(3,5)">Click here to see if 3 = 5.</p>
+
+        <p id = "AND_True" onclick = "myTrue_AND()">Click here to see if 10 > 5 AND 5 > 3.</p>
+        <p id = "AND_False" onclick = "myFalse_AND()">Click here to see if 10 > 5 and 3 > 5.</p>
+        <p id = "OR_True" onclick = "myTrue_OR()">Click here to see if 10 > 5 or 3 > 5.</p>
+        <p id = "OR_False" onclick = "myFalse_OR()">Click here to see if 5 > 10 or 3 > 5.</p>
+
+        <p id = "NOT_True" onclick = "myTrue_NOT()">Click here to see the NOT result of 5 > 10.</p>
+        <p id = "NOT_False" onclick = "myFalse_NOT()">Click here to see the NOT result of 10 > 5.</p>
+    </body>
+</html>
