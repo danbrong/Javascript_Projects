@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8">
+        <title>Math Operations</title>
+        <script src = "JS/main.js"></script>
+    </head>
+    <body>
+        <h1> Math Operations! </h1>
+
+        <!--MATH STATEMENTS-->
+            <p id = "Add">What is 3 + 3 = ?</p>
+
+            <p id = "Sub">What is 3 - 3 = ?
+            </p>
+
+            <p id = "Mult">What is 3 * 3 = ?
+            </p>
+
+            <p id = "Div">What is 3 / 3 = ?
+            </p>
+
+            <p id = "Math">What is 3 + 3 * 3 / 3 = ?
+            </p>
+
+            <p id = "Modulus">What is the remainder of 4 / 3 = ?
+            </p>
+
+            <p id = "Negation">What is the negative version of 3 = ?
+            </p>
+
+            <p id = "Inc">What is one increment up from 3?
+            </p>
+
+            <p id = "Dec">What is one decrement down from 3?
+            </p>
+
+            <p id = "Random">Click the Random Button to get a random number between 0 and 10.
+            </p>
+            <!--END MATH STATEMENTS-->
+
+            <!--BUTTON CODE-->
+            <button onclick = "document.getElementById('Add').innerHTML = myAddition(3,3)">Compute Addition!</button>
+
+            <button onclick = "document.getElementById('Sub').innerHTML = mySubtraction(3,3)">Compute Subtraction!</button>
+
+            <button onclick = "document.getElementById('Mult').innerHTML = myMultiply(3,3)">Compute Multiplication!</button>
+
+            <button onclick = "document.getElementById('Div').innerHTML = myDivide(3,3)">Compute Division!</button>
+        
+            <button onclick = "document.getElementById('Math').innerHTML = myMath(3,3,3,3,3)">Compute Math!</button>
+
+            <button onclick = "document.getElementById('Modulus').innerHTML = myModulus(4,3)">Compute Remainder!</button>
+
+            <button onclick = "document.getElementById('Negation').innerHTML = myNegative(3)">Make Negative!</button>
+
+            <button onclick = "document.getElementById('Inc').innerHTML = myIncrement(3)">Increment 1!</button>
+
+            <button onclick = "document.getElementById('Dec').innerHTML = myDecrement(3)">Decrement 1!</button>
+
+            <button onclick = "document.getElementById('Random').innerHTML = myRandom()">Random Number!</button>
+
+            <button id = "MathO" onclick = "document.getElementById('MathO').innerHTML = myPi()">Get Pi!</button>
+
+            <button id = "MathM" onclick = "document.getElementById('MathM').innerHTML = myRound(3.14)">Round Pi Down!</button>
+            <!--END BUTTON CODE-->
+            
+    </body>
+</html>
