@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <title>Arrow Function</title>
+    </head>
+
+    <body>
+        <p id = "Arrow"></p>
+        <button onclick = "myFunction()">Click here!</button>
+
+        <script>
+            myFunction = () => "Check out this inline, arrow function!";
+            document.getElementById("Arrow").innerHTML = myFunction();
+
+            
+        </script>
+    </body>
+</html>
