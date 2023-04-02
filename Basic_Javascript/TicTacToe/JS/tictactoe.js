@@ -15,9 +15,9 @@ function placeXorO(squareNumber) {
 
         //Turn Check
         if (activePlayer === "X") {
-            select.style.backgroundImage = 'url("./Media/Images/x.png")';
+            select.style.backgroundImage = 'url("./Media/Images/spikesmall.png")';
         } else {
-            select.style.backgroundImage = 'url("./Media/Images/o.png")';
+            select.style.backgroundImage = 'url("./Media/Images/angelsmall.png")';
         }
 
         // squareNumber and activePlayer are concatenated and added to the array.
@@ -32,7 +32,7 @@ function placeXorO(squareNumber) {
         }
 
         // Placement Sound
-        audio('./Media/place.mp3');
+        audio('./Media/growl.mp3');
 
         // Computer Turn Check
         if (activePlayer === "O") {
@@ -92,8 +92,8 @@ function checkWinConditions() {
 
     // Tie Check
     else if (selectedSquares.length >= 9) {
-        audio('./Media/tie.mp3');
-        setTimeout(function () { resetGame(); }, 500);
+        audio('./Media/zombie.mp3');
+        setTimeout(function () { resetGame(); }, 1000);
     }
 
     // Array Check
@@ -162,7 +162,7 @@ function drawWinLine(coordX1, coordY1, coordX2, coordY2) {
 
     // Disable click while win sound is active
     disableClick();
-    audio('.Media/winGame.mp3');
+    audio('./Media/tada.mp3');
     animateLineDrawing();
     setTimeout(function () { clear(); resetGame(); }, 1000);
 }
