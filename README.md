@@ -12,8 +12,11 @@ CSS - Language for website appearances
 Git - Manages repository projects
 GitHub - Houses and controls our repository
 
-### Launch:
-
+### Projects:
+Pizza Menu Order Project
+Tic-Tac-Toe Project
+Calculator Project
+Portfolio Version 2
 
 ### Illustrations:
 
