@@ -18,12 +18,14 @@ Tic-Tac-Toe Project
 Calculator Project
 Portfolio Version 2
 
-### Illustrations:
+# Pizza Menu:
+Created a reactive pizza ordering website. Capable of modifying toppings individually and retrieving pricing automatically.
 
-### Examples of Use:
+# Tic-Tac-Toe Project:
+Designed a game played against a computer player. Can click on spaces and register win conditions. Also created with sound effects.
 
-### Project Status:
+# Calculator Project:
+Made a functional calculator capable of taking input of number and performing mathematical operations on the data.
 
-### Sources:
-
-### Other Information:
+# Portfolio Version 2:
+Updated portfolio with javascript functionality and interactive elements.
