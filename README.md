@@ -12,15 +12,20 @@ CSS - Language for website appearances
 Git - Manages repository projects
 GitHub - Houses and controls our repository
 
-### Launch:
+### Projects:
+Pizza Menu Order Project
+Tic-Tac-Toe Project
+Calculator Project
+Portfolio Version 2
 
+# Pizza Menu:
+Created a reactive pizza ordering website. Capable of modifying toppings individually and retrieving pricing automatically.
 
-### Illustrations:
+# Tic-Tac-Toe Project:
+Designed a game played against a computer player. Can click on spaces and register win conditions. Also created with sound effects.
 
-### Examples of Use:
+# Calculator Project:
+Made a functional calculator capable of taking input of number and performing mathematical operations on the data.
 
-### Project Status:
-
-### Sources:
-
-### Other Information:
+# Portfolio Version 2:
+Updated portfolio with javascript functionality and interactive elements.
